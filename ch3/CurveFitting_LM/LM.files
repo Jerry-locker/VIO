@@ -1,0 +1,16 @@
+CMakeLists.txt
+app/CMakeLists.txt
+app/CurveFitting.cpp
+backend/CMakeLists.txt
+backend/backend.h
+backend/edge.cc
+backend/edge.h
+backend/eigen_types.h
+backend/problem.cc
+backend/problem.h
+backend/vertex.cc
+backend/vertex.h
+cmake/FindEigen.cmake
+cmake/FindGlog.cmake
+utils/CMakeLists.txt
+utils/tic_toc.h
