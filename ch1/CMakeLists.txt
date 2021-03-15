@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(update_rot)
+find_package(Sophus REQUIRED)
+include_directories("/usr/include/eigen3" ${Sophus_INCLUDE_DIRS})
+add_executable(update update.cpp)
+target_link_libraries(update ${Sophus_LIBRARIES})
