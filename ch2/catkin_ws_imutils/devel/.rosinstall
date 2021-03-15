@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jerry/catkin_ws_vision_imu/ch2/catkin_ws_imutils/devel/setup.sh
